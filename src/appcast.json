@@ -2,6 +2,13 @@
   "identifier": "com.silver-ymz.microsoft-translate",
   "versions": [
     {
+      "version": "0.1.1",
+      "desc": "https://github.com/silver-ymz/bob-plugin-microsoft-translate/blob/master/CHANGELOG.md",
+      "sha256": "16fe96ac6eb24e6d1d3ee54c3162fcdaacd1523a5b548feb8c0f4fa94f7977d2",
+      "url": "https://github.com/silver-ymz/bob-plugin-microsoft-translate/releases/download/v0.1.1/bob-plugin-microsoft-translate-v0.1.1.bobplugin",
+      "minBobVersion": "0.5.0"
+    },
+    {
       "version": "0.1.0",
       "desc": "https://github.com/silver-ymz/bob-plugin-microsoft-translate/blob/master/CHANGELOG.md",
       "sha256": "3dfa0804d328c71ac20563d806c85dd35a43d0c730cbac98c8bece54e287cdab",
