@@ -1,3 +1,14 @@
+# 0.1.0 (2022-07-17)
+
+
+### Features
+
+* 实现基本翻译功能 ([5739e70](https://github.com/silver-ymz/bob-plugin-microsoft-translate/commit/5739e70077be17b19b72ea6b5812b9d076fdd802))
+* 实现基本翻译功能 ([9481a79](https://github.com/silver-ymz/bob-plugin-microsoft-translate/commit/9481a79670612c02e9c4a362d66863f01ba137e9))
+* change readme.md ([34ed76c](https://github.com/silver-ymz/bob-plugin-microsoft-translate/commit/34ed76ccd844141097a352cc246ae087643e9793))
+
+
+
 ## 0.0.1 (2022-07-17)
 
 
