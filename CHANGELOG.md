@@ -1,3 +1,7 @@
+## [0.1.1](https://github.com/silver-ymz/bob-plugin-microsoft-translate/compare/v0.1.0...v0.1.1) (2022-07-17)
+
+
+
 # 0.1.0 (2022-07-17)
 
 
