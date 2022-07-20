@@ -7,7 +7,7 @@
   "author": "silver-ymz",
   "appcast": "https://raw.githubusercontent.com/silver-ymz/bob-plugin-microsoft-translate/master/src/appcast.json",
   "homepage": "https://github.com/silver-ymz/bob-plugin-microsoft-translate",
-  "icon": "001",
+  "icon": "icon.png",
   "minBobVersion": "0.5.0",
   "options": [
     {

@@ -31,6 +31,7 @@ const RollupConfig = {
       targets: [
         { src: './src/info.json', dest: `dist/${pkg}/` },
         { src: './src/libs', dest: `dist/${pkg}/` },
+        { src: './src/icon.png', dest: `dist/${pkg}/` }
       ],
     }),
     json({ namedExports: false }),
