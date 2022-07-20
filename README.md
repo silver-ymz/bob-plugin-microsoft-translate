@@ -1,6 +1,6 @@
 # bob-plugin-microsoft-translate
 
-> 这是 [Bob](https://ripperhe.gitee.io/bob/#/) 的一个插件,它支持[微软]()翻译
+> 这是 [Bob](https://ripperhe.gitee.io/bob/#/) 的一个插件,它支持[微软](https://azure.microsoft.com/en-us/services/cognitive-services/translator/)翻译
 
 ## 特性
 
