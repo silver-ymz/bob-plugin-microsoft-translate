@@ -1,3 +1,17 @@
+# [0.2.0](https://github.com/silver-ymz/bob-plugin-microsoft-translate/compare/v0.1.2...v0.2.0) (2022-07-20)
+
+
+### Bug Fixes
+
+* 优化文件结构 ([6e6aef7](https://github.com/silver-ymz/bob-plugin-microsoft-translate/commit/6e6aef794ff94d8cd58379a8d50b741a250c69b8))
+
+
+### Features
+
+* 修改插件图标 ([dadc196](https://github.com/silver-ymz/bob-plugin-microsoft-translate/commit/dadc196f119ef9cc837ee72144e7a09f52dd709f))
+
+
+
 ## [0.1.2](https://github.com/silver-ymz/bob-plugin-microsoft-translate/compare/v0.1.1...v0.1.2) (2022-07-20)
 
 

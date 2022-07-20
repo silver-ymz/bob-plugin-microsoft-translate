@@ -1,7 +1,7 @@
 {
   "identifier": "com.silver-ymz.microsoft-translate",
   "category": "translate",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "name": "microsoft-translate",
   "summary": "Bob plugin for microsoft translation.",
   "author": "silver-ymz",
