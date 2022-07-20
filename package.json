@@ -1,6 +1,6 @@
 {
   "name": "bob-plugin-microsoft-translate",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Bob plugin for microsoft translation.",
   "homepage": "https://github.com/silver-ymz/bob-plugin-microsoft-translate",
   "repository": "https://github.com/silver-ymz/bob-plugin-microsoft-translate.git",
