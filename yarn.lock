@@ -923,7 +923,7 @@
     "@babel/helper-validator-identifier" "^7.18.6"
     to-fast-properties "^2.0.0"
 
-"@bob-plug/core@^0.1.3":
+"@bob-plug/core@^0.1.6":
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/@bob-plug/core/-/core-0.1.6.tgz#4bfbb22883016d6c99d3121cb44bdd9e9c4fb884"
   integrity sha512-qKe4PmiJuEtTRsSBMD4DJ9ttsUAs5tOfoTXRxWQ6btXfM+w3Q+ZCqMP1qkmAGHPPkjxqFy51xnIXokSP7RuOAQ==
