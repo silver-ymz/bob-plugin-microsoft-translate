@@ -14,3 +14,13 @@
 
 ## 预览
 ![](https://cdn.jsdelivr.net/gh/silver-ymz/image@master/macbook-air/202207171317616.png)
+
+## 注意
+
+> 该插件需要前往Azure申请微软翻译API，才能使用
+
+目前，学生以及新用户可以免费申请微软翻译API。
+
+[微软翻译详情页:https://azure.microsoft.com/zh-cn/services/cognitive-services/translator](https://azure.microsoft.com/zh-cn/services/cognitive-services/translator)
+
+[微软翻译文档:https://docs.microsoft.com/zh-cn/azure/cognitive-services/translator](https://docs.microsoft.com/zh-cn/azure/cognitive-services/translator)
