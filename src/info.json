@@ -35,7 +35,7 @@
     {
       "identifier": "key",
       "type": "text",
-      "title": "Secret Key"
+      "title": "密钥"
     },
     {
       "identifier": "location",

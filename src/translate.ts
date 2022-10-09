@@ -25,13 +25,13 @@ async function _translate(text: string, options: QueryOption): Promise<Bob.Trans
     resultCache.clear();
   }
 
-  const result: Bob.TranslateResult = { from, to, toParagraphs: [] };
-
-  const endpoint = Bob.api.getOption('endpoint');
+  let endpoint = Bob.api.getOption('endpoint');
+  if (!endpoint.startsWith('https://'))
+    endpoint = 'https://' + endpoint;
   const path = '/translate?api-version=3.0';
   const fromLanguageParameter = '&from=' + standardToNoStandard(from);
   const targetLanguageParameter = '&to=' + standardToNoStandard(to);
-  const constructedUrl = endpoint + path + fromLanguageParameter + targetLanguageParameter;
+  const postUrl = endpoint + path + fromLanguageParameter + targetLanguageParameter;
   const key = Bob.api.getOption('key');
   const location = Bob.api.getOption('location');
   const headers = {
@@ -41,7 +41,7 @@ async function _translate(text: string, options: QueryOption): Promise<Bob.Trans
   };
   const [err, res] = await Bob.util.asyncTo<Bob.HttpResponse>(
     Bob.api.$http.post({
-      url: constructedUrl,
+      url: postUrl,
       header: headers,
       body: [{ text: text }],
     }),
@@ -50,10 +50,12 @@ async function _translate(text: string, options: QueryOption): Promise<Bob.Trans
   const resData = res?.data;
   Bob.api.$log.info(JSON.stringify(res));
 
+  const result: Bob.TranslateResult = { from, to, toParagraphs: [] };
+
   try {
     // 在此处实现翻译的具体处理逻辑
     result.toParagraphs = [resData[0].translations[0].text];
-    // result.toDict = { parts: [], phonetics: [] };
+
   } catch (error) {
     throw Bob.util.error('api', '数据解析错误', error);
   }
