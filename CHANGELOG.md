@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/silver-ymz/bob-plugin-microsoft-translate/compare/v0.2.0...v0.2.1) (2022-10-09)
+
+
+### Bug Fixes
+
+* 修改一些小问题，减少日志占用 ([cc99d5e](https://github.com/silver-ymz/bob-plugin-microsoft-translate/commit/cc99d5efc37bba68fb8bcb3526780351ac0a4057))
+
+
+
 # [0.2.0](https://github.com/silver-ymz/bob-plugin-microsoft-translate/compare/v0.1.2...v0.2.0) (2022-07-20)
 
 
